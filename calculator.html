@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="calculator.css">
+
+    </head>
+    <body>
+
+        
+       <!--running the code in each of the individual buttons--> 
+      <p class="js-result"> </p>
+
+        <button onclick="
+     calculation += '1';
+      let show = document.querySelector('.js-result')
+      .innerHTML = calculation;
+    " class="value">1</button>
+
+
+        <button onclick="
+       calculation += '2';
+       let show = document.querySelector('.js-result')
+      .innerHTML = calculation;">2</button>
+
+
+        <button onclick="
+        calculation += '3';
+        let show = document.querySelector('.js-result')
+      .innerHTML = calculation;">3</button>
+
+        <button class="cal-sign" onclick="
+        calculation += ' + ';
+        let show = document.querySelector('.js-result')
+      .innerHTML = calculation;">+</button>
+        <br>
+
+        <button onclick="
+        calculation += '4';
+        let show = document.querySelector('.js-result')
+      .innerHTML = calculation;">4</button>
+
+
+        <button onclick="
+        calculation += '5';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">5</button>
+
+        <button onclick="
+        calculation += '6';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">6</button>
+
+        <button 
+        onclick="
+        calculation += '-';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;"
+        class="cal-sign">-</button>
+        <br>
+
+        <button onclick="
+        calculation += '7';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">7</button>
+
+        <button onclick="
+        calculation += '8';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">8</button>
+
+        <button onclick="
+        calculation += '9';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">9</button>
+
+        <button
+        onclick="
+        calculation += ' * ';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;"
+        class="cal-sign">*</button>
+        <br>
+
+        <button onclick="
+        calculation += '0';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">0</button>
+
+        <button onclick="
+        calculation += '.';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">.</button>
+
+        <button onclick="
+        calculation = eval(calculation) ;
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;">=</button>
+
+
+        <button
+        onclick="
+        calculation += '/';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;"
+        class="cal-sign">/</button>
+        <br>
+
+        <button
+        onclick="
+        calculation = '';
+        let show = document.querySelector('.js-result')
+        .innerHTML = calculation;"
+        class="clear-all">Clear</button>
+
+        <!------javascript------>
+       <script>
+
+      let calculation = '';
+       </script>
+    </body>
+</html>

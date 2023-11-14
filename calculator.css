@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    display: block;
+    margin: 20px 15px; 
+    padding: 5px 0;
+    color: white;
+    font-size: 20px;
+   
+
+}
+button{
+    font-size: 25px;; 
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 60px;
+    margin: 5px 4px;
+    background-color: rgb(63, 61, 61);
+    color: white;
+    cursor: pointer;
+}
+
+.cal-sign{
+    background-color: rgb(110, 139, 233);
+}
+
+
+
+.clear-all{
+    font-size: 17px;
+}
+

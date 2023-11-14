@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="calculator.css">
+
+    </head>
+    <body>
+<!---creating a function and calling the function into each of the individual buttons.  Less code and this is recommended practice---->
+      <p class="js-result"> </p>
+
+        <button onclick="addToCalculator('1')">1</button>
+
+
+        <button onclick="addToCalculator('2')">2</button>
+
+
+        <button onclick="addToCalculator('3')">3</button>
+
+        <button onclick="addToCalculator('+')" class="cal-sign">+</button>
+        <br>
+
+        <button onclick="addToCalculator('4')">4</button>
+
+
+        <button onclick="addToCalculator('5')">5</button>
+
+        <button onclick="addToCalculator('6')">6</button>
+
+        <button onclick="addToCalculator('-')" class="cal-sign">-</button>
+        <br>
+
+        <button onclick="addToCalculator('7')">7</button>
+
+        <button onclick="addToCalculator('8')">8</button>
+
+        <button onclick="addToCalculator('9')">9</button>
+
+        <button onclick="addToCalculator('*')" class="cal-sign">*</button>
+        <br>
+
+        <button onclick="addToCalculator('0')">0</button>
+
+        <button onclick="addToCalculator('.')">.</button>
+
+        <button onclick="equalTo()">=</button>
+
+
+        <button
+        onclick="addToCalculator('/')"
+        class="cal-sign">/</button>
+        <br>
+
+        <button
+        onclick="clearAll()"
+        class="clear-all">Clear</button>
+
+        
+       <script src="calculator.js"></script>
+    </body>
+</html>
